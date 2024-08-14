@@ -1,1 +1,2 @@
-worker: heroku-php-nginx bot.php
+worker: heroku-php-apache2 bot.php
+
