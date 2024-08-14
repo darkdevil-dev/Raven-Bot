@@ -1,0 +1,12 @@
+{
+  "name": "PHP Telegram Bot",
+  "description": "A simple PHP Telegram Bot deployed on Heroku",
+  "repository": "https://github.com/darkdevil-dev/Raven-Bot/",
+  "logo": "https://link-to-your-logo.png",
+  "keywords": ["php", "telegram", "bot"],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
