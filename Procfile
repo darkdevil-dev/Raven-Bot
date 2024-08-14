@@ -1,1 +1,2 @@
-web: php bot.php
+web: heroku-php-apache2 bot.php
+
