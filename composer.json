@@ -1,26 +1,5 @@
 {
-    "name": "darkdevil-dev/Raven-Bot",
-    "description": "A simple PHP Telegram bot using Guzzle",
-    "type": "project",
     "require": {
         "guzzlehttp/guzzle": "^7.4"
-    },
-    "require-dev": {},
-    "autoload": {
-        "psr-4": {
-            "App\\": "src/"
-        }
-    },
-    "scripts": {
-        "start": [
-            "php -S localhost:8000 -t public"
-        ]
-    },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    }
 }
