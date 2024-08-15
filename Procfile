@@ -1,2 +1,1 @@
-web: heroku-php-apache2 bot.php
-
+worker: php bot.php
