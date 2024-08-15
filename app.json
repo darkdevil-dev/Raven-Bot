@@ -1,12 +1,27 @@
 {
-  "name": "PHP Telegram Bot",
-  "description": "A simple PHP Telegram Bot deployed on Heroku",
-  "repository": "https://github.com/darkdevil-dev/Raven-Bot/",
-  "logo": "https://link-to-your-logo.png",
-  "keywords": ["php", "telegram", "bot"],
-  "buildpacks": [
-    {
-      "url": "heroku/php"
-    }
-  ]
+    "name": "Bin-Checker Bot",
+    "description": "A simple bot to check if the bin is valid or not.",
+    "keywords": [
+        "Bin",
+        "Bot",
+        "Telegra."
+    ],
+    "website": "#TODO",
+    "repository": "https://github.com/Benchamxd/Bin-Checker",
+    "success_url": "/",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "your Telegram Bot Token, from @BotFather"
+        },
+        "START_MESSAGE": {
+            "description": "A start message for your bot."
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
 }
